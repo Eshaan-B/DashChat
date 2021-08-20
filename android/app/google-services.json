@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "501685796873",
+    "project_id": "dashchat-6df8f",
+    "storage_bucket": "dashchat-6df8f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501685796873:android:168401e7ac04d2a15878d8",
+        "android_client_info": {
+          "package_name": "com.example.dash_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501685796873-onvv9e439tj22qsvv3m085sdd3g270qm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmfBWMMHaYpagkkoN7zO1kuQZNdhpDPkQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501685796873-onvv9e439tj22qsvv3m085sdd3g270qm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
