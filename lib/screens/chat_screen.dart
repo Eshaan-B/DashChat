@@ -1,15 +1,24 @@
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 class ChatScreen extends StatelessWidget {
-  static const routeName="chatScreen";
+  static const routeName = "chatScreen";
+
   const ChatScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
+    final routeArgs =
+        ModalRoute.of(context)?.settings.arguments as Map<String, String>;
+    final email = routeArgs['email'];
+
     return Scaffold(
+      appBar: AppBar(
+        title: Text(email.toString()),
+      ),
       body: StreamBuilder(
         stream: Firestore.instance
             .collection('chats/LezNXeWSqv9tJnZE6uhU/messages')
