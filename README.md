@@ -1,3 +1,3 @@
 # DashChat⚡
 
-A lightning fast flutter Chat application📱
+A lightning fast commmunity Chat application📱
